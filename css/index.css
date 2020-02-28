@@ -171,16 +171,16 @@ nav {
   margin: 0 10%;
   width: 80%;
   height: 20%;
-  background: linear-gradient(30deg, red, white, dodgerblue);
+  background: linear-gradient(30deg, #8d0000, #e0dddd, #032891);
 }
 nav div.links a {
   text-decoration: none;
   font-size: 2.4rem;
-  color: red;
+  color: #8d0000;
   margin: 0 1rem;
 }
 nav div.links a.middle {
-  color: blue;
+  color: #032891;
 }
 header {
   margin: 0 10%;
@@ -197,12 +197,11 @@ header div {
   align-items: center;
 }
 header div h1 {
-  background: -webkit-linear-gradient(100deg, red, #888787, dodgerblue);
+  background: -webkit-linear-gradient(100deg, #8d0000, #e0dddd, #032891);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 section.section-one {
-  border: 1px solid purple;
   margin: 0 10%;
   width: 80%;
   height: 20rem;
@@ -210,9 +209,10 @@ section.section-one {
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
+  background: linear-gradient(#8d0000, #e0dddd, #032891, #e0dddd, #8d0000);
 }
 section.section-two {
-  background: linear-gradient(120deg, red, white, dodgerblue);
+  background: linear-gradient(120deg, #8d0000, #e0dddd, #032891);
   border: 1px solid green;
   margin: 0 10%;
   width: 80%;
@@ -222,7 +222,7 @@ section.section-two {
   align-items: center;
 }
 section.section-two h2 {
-  background: linear-gradient(30deg, red, white, dodgerblue);
+  background: linear-gradient(30deg, #8d0000, #e0dddd, #032891);
   border: 1px dotted dodgerblue;
   padding: 1.5rem;
   border-radius: 50%;
@@ -243,7 +243,7 @@ section.section-two div.tab-row div.tabs {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(30deg, red, white, dodgerblue);
+  background: linear-gradient(30deg, #8d0000, #e0dddd, #032891);
   border: 1px dotted dodgerblue;
   padding: 1.5rem;
   border-radius: 50%;
@@ -260,6 +260,7 @@ section.section-two div.tab-row div.tabs p {
 section.section-three {
   margin: 0 10%;
   width: 80%;
+  background: linear-gradient(#032891, #e0dddd, #8d0000, #e0dddd, #032891, #e0dddd);
 }
 section.section-three div {
   display: flex;
@@ -267,15 +268,12 @@ section.section-three div {
   justify-content: center;
   align-items: center;
 }
-section.section-three div img {
-  border: 1px solid red;
-  margin: 8rem 0 0 0;
-}
 section.section-three div button {
-  background: linear-gradient(30deg, red, white, dodgerblue);
+  background: linear-gradient(30deg, #8d0000, #e0dddd, #032891);
   border: 1px dotted dodgerblue;
   padding: 1.5rem;
   border-radius: 50%;
+  margin: 3rem 0 -2rem 0;
 }
 footer {
   margin: 0 10%;

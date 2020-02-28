@@ -1,9 +1,9 @@
 section.section-one{
-    border: 1px solid purple;
     .size();
     height: 20rem;
     .flexRow();
-
+    background: linear-gradient(@red, @white, @blue, @white, @red);
+    
     div {
         h2 {
             
@@ -16,7 +16,7 @@ section.section-one{
 }//section-one
 
 section.section-two {
-    background: linear-gradient(120deg, red, white, dodgerblue);
+    background: linear-gradient(120deg, @red, @white, @blue);
     border: 1px solid green;
     .size();
     .flexCol();
@@ -54,16 +54,18 @@ section.section-two {
 
 section.section-three {
     .size();
+    background: linear-gradient(@blue, @white, @red, @white, @blue, @white);
+
     
     div {
         .flexCol();
-        
+
         img {
-            border: 1px solid red;
-            margin: 8rem 0 0 0;
+           
         }//img
         button {
             .button();
+            margin: 3rem 0 -2rem 0;
         }//button
     }//div
 }
