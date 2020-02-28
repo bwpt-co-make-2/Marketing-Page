@@ -1,6 +1,21 @@
 nav {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-}
+    border: 1px solid blue;
+    .flexRow();
+    margin: 0 10%;
+    width: 80%;
+    height: 20%;
+    background: linear-gradient(30deg, red, white, dodgerblue);
+
+    div.links {
+        a {
+            text-decoration: none;
+            font-size: 2.4rem;
+            color: red;
+            
+            &.middle {
+                color: blue;
+            }//middle
+        }//a
+        
+    }//div.links
+}//nav
