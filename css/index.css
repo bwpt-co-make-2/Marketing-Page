@@ -169,7 +169,8 @@ nav {
   justify-content: space-evenly;
   align-items: center;
   margin: 0 10%;
-  width: 80%;
+  width: 100vw;
+  height: 100vh;
   height: 10%;
   background: linear-gradient(30deg, #8d0000, #e0dddd, #032891);
 }
@@ -184,7 +185,8 @@ nav div.links a.middle {
 }
 header {
   margin: 0 10%;
-  width: 80%;
+  width: 100vw;
+  height: 100vh;
   height: 60rem;
   background-image: url("/Users/jordan.oliver/Documents/School/Lambda/Lambda Projects/Builds/Unit 1 Build/Marketing-Page/imgs/together.jpg");
   background-size: cover;
@@ -203,7 +205,8 @@ header div h1 {
 }
 section.section-one {
   margin: 0 10%;
-  width: 80%;
+  width: 100vw;
+  height: 100vh;
   height: 20rem;
   display: flex;
   flex-flow: row wrap;
@@ -215,7 +218,8 @@ section.section-two {
   background: linear-gradient(120deg, #8d0000, #e0dddd, #032891);
   border: 1px solid green;
   margin: 0 10%;
-  width: 80%;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -259,7 +263,8 @@ section.section-two div.tab-row div.tabs p {
 }
 section.section-three {
   margin: 0 10%;
-  width: 80%;
+  width: 100vw;
+  height: 100vh;
   background: linear-gradient(#032891, #e0dddd, #8d0000, #e0dddd, #032891, #e0dddd);
 }
 section.section-three div {
@@ -277,7 +282,8 @@ section.section-three div button {
 }
 footer {
   margin: 0 10%;
-  width: 80%;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -291,7 +297,8 @@ footer img {
 div.about {
   border: 1px solid red;
   margin: 0 10%;
-  width: 80%;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -306,6 +313,7 @@ div.about h2 {
 }
 div.about div.photo {
   border: 1px solid blue;
+  background: linear-gradient(135deg, #82bffc, #0077ff);
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -317,4 +325,13 @@ div.about div.photo div {
 div.about div.photo div img {
   width: 75%;
   height: 75%;
+}
+div.role {
+  margin: 0 10%;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
 }
