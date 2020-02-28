@@ -164,7 +164,6 @@ p {
   margin: 0 auto;
 }
 nav {
-  border: 1px solid blue;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -178,17 +177,27 @@ nav div.links a {
   text-decoration: none;
   font-size: 2.4rem;
   color: red;
+  margin: 0 1rem;
 }
 nav div.links a.middle {
   color: blue;
 }
 header {
-  border: 1px solid red;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-content: space-around;
   margin: 1rem 10%;
   width: 80%;
   height: 60rem;
+  background-image: url("/Users/jordan.oliver/Documents/School/Lambda/Lambda Projects/Builds/Unit 1 Build/Marketing-Page/imgs/together.jpg");
+  background-size: cover;
+  background-position: center;
+}
+header div {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+header div h1 {
+  background: -webkit-linear-gradient(100deg, red, #888787, dodgerblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
