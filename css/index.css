@@ -235,8 +235,8 @@ section.section-two div.tab-row {
   justify-content: space-evenly;
   align-items: center;
 }
-section.section-two div.tab-row div {
-  border: 1px solid hotpink;
+section.section-two div.tab-row div.tabs {
+  border: 1px solid dodgerblue;
   width: 30%;
   height: 50rem;
   display: flex;
@@ -249,15 +249,31 @@ section.section-two div.tab-row div {
   border-radius: 50%;
   border-radius: 10%;
 }
-section.section-two div.tab-row div img {
+section.section-two div.tab-row div.tabs img {
   width: 50%;
   height: 50%;
 }
-section.section-two div.tab-row div p {
+section.section-two div.tab-row div.tabs p {
   margin: 1rem 0;
   width: 80%;
 }
 section.section-three {
   margin: 0 10%;
   width: 80%;
+}
+section.section-three div {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+section.section-three div img {
+  border: 1px solid red;
+  margin: 8rem 0 0 0;
+}
+section.section-three div button {
+  background: linear-gradient(30deg, red, white, dodgerblue);
+  border: 1px dotted dodgerblue;
+  padding: 1.5rem;
+  border-radius: 50%;
 }

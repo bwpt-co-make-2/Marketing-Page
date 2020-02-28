@@ -30,8 +30,8 @@ section.section-two {
     div.tab-row {
         .flexRow();
 
-        div {
-            border: 1px solid hotpink;
+        div.tabs {
+            border: 1px solid dodgerblue;
             .tabSize();
             .flexCol();
             .button();
@@ -47,22 +47,23 @@ section.section-two {
                 width: 80%;
             }//p
 
-        }//div
-    }
-
-    
-
+        }//div.tabs
+    }//tab-row
     
 }//section-two
 
 section.section-three {
     .size();
+    
     div {
+        .flexCol();
+        
         img {
-
+            border: 1px solid red;
+            margin: 8rem 0 0 0;
         }//img
         button {
-
+            .button();
         }//button
     }//div
 }
