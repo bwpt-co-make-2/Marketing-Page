@@ -212,6 +212,7 @@ section.section-one {
   align-items: center;
 }
 section.section-two {
+  background: linear-gradient(120deg, red, white, dodgerblue);
   border: 1px solid green;
   margin: 0 10%;
   width: 80%;
@@ -242,6 +243,11 @@ section.section-two div.tab-row div {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(30deg, red, white, dodgerblue);
+  border: 1px dotted dodgerblue;
+  padding: 1.5rem;
+  border-radius: 50%;
+  border-radius: 10%;
 }
 section.section-two div.tab-row div img {
   width: 50%;
