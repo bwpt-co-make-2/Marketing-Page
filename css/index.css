@@ -277,3 +277,16 @@ section.section-three div button {
   padding: 1.5rem;
   border-radius: 50%;
 }
+footer {
+  margin: 0 10%;
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+}
+footer img {
+  width: 8rem;
+  height: 6rem;
+}
