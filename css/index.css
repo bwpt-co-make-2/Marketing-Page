@@ -183,7 +183,7 @@ nav div.links a.middle {
   color: blue;
 }
 header {
-  margin: 1rem 10%;
+  margin: 0 10%;
   width: 80%;
   height: 60rem;
   background-image: url("/Users/jordan.oliver/Documents/School/Lambda/Lambda Projects/Builds/Unit 1 Build/Marketing-Page/imgs/together.jpg");
@@ -200,4 +200,58 @@ header div h1 {
   background: -webkit-linear-gradient(100deg, red, #888787, dodgerblue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+section.section-one {
+  border: 1px solid purple;
+  margin: 0 10%;
+  width: 80%;
+  height: 20rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+section.section-two {
+  border: 1px solid green;
+  margin: 0 10%;
+  width: 80%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+section.section-two h2 {
+  background: linear-gradient(30deg, red, white, dodgerblue);
+  border: 1px dotted dodgerblue;
+  padding: 1.5rem;
+  border-radius: 50%;
+  margin: 2rem 0;
+  border: 1px solid black;
+}
+section.section-two div.tab-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+section.section-two div.tab-row div {
+  border: 1px solid hotpink;
+  width: 30%;
+  height: 50rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+section.section-two div.tab-row div img {
+  width: 50%;
+  height: 50%;
+}
+section.section-two div.tab-row div p {
+  margin: 1rem 0;
+  width: 80%;
+}
+section.section-three {
+  margin: 0 10%;
+  width: 80%;
 }
