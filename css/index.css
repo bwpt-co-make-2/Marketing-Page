@@ -158,7 +158,8 @@ p {
   font-size: 1.6rem;
   line-height: 1.4;
 }
-a {
+a,
+button {
   font-family: 'Lobster';
   font-size: 1.6rem;
 }
@@ -192,6 +193,9 @@ nav div.links a {
 nav div.links a.middle {
   color: #f1f27e;
 }
+nav div.links a:hover {
+  color: #a2f27e;
+}
 header {
   width: 100vw;
   height: 100vh;
@@ -221,7 +225,7 @@ header div a {
   text-decoration: none;
   color: #ffa0a0;
   background: linear-gradient(35deg, #a2f27e 0%, #f1f27e 100%);
-  border: 1px dotted dodgerblue;
+  border: 1px solid dodgerblue;
   padding: 1.5rem 3rem;
   border-radius: 75%;
 }
@@ -233,7 +237,7 @@ section.section-one {
   margin: 5rem 0;
   width: 100vw;
   height: 20vh;
-  height: 40vh;
+  height: auto;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -251,13 +255,14 @@ section.section-one div p {
   color: #5b5b5b;
 }
 section.section-one img {
-  height: 30rem;
+  height: 25rem;
 }
 section.section-two {
   background: #f1f27e;
   background: linear-gradient(90deg, #ffa0a0 0%, #96fff6 50%, #f1f27e 100%);
   width: 100vw;
   height: 100vh;
+  height: auto;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -265,7 +270,7 @@ section.section-two {
 }
 section.section-two h2 {
   background: linear-gradient(35deg, #a2f27e 0%, #f1f27e 100%);
-  border: 1px dotted dodgerblue;
+  border: 1px solid dodgerblue;
   padding: 1.5rem 3rem;
   border-radius: 75%;
   margin: 2rem 0;
@@ -278,25 +283,23 @@ section.section-two div.tab-row {
   align-items: center;
 }
 section.section-two div.tab-row div.tabs {
-  border: 1px solid dodgerblue;
+  background: linear-gradient(35deg, #96fff6 0%, #f1f27e 100%);
+  border: 1rem double #ffa0a0;
+  padding: 2rem 1rem;
+  border-radius: 15%;
   width: 30%;
-  height: 50rem;
+  height: 60rem;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(35deg, #a2f27e 0%, #f1f27e 100%);
-  border: 1px dotted dodgerblue;
-  padding: 1.5rem 3rem;
-  border-radius: 75%;
-  border-radius: 10%;
 }
 section.section-two div.tab-row div.tabs img {
   width: 50%;
   height: 50%;
 }
 section.section-two div.tab-row div.tabs p {
-  margin: 1rem 0;
+  margin: 3rem 0;
   width: 80%;
 }
 section.section-three {
@@ -304,6 +307,7 @@ section.section-three {
   height: 20vh;
   background: #f1f27e;
   background: linear-gradient(90deg, #ffa0a0 0%, #96fff6 50%, #f1f27e 100%);
+  margin: 2rem 0;
 }
 section.section-three div {
   display: flex;
@@ -313,10 +317,14 @@ section.section-three div {
 }
 section.section-three div button {
   background: linear-gradient(35deg, #a2f27e 0%, #f1f27e 100%);
-  border: 1px dotted dodgerblue;
+  border: 1px solid dodgerblue;
   padding: 1.5rem 3rem;
   border-radius: 75%;
-  margin: 3rem 0 -2rem 0;
+  margin: 3rem 0 -4rem 0;
+}
+section.section-three div button:hover {
+  color: #f1f27e;
+  background: linear-gradient(35deg, #ffa0a0 0%, #96fff6 100%);
 }
 footer {
   width: 100vw;
