@@ -158,6 +158,10 @@ p {
   font-size: 1.6rem;
   line-height: 1.4;
 }
+a {
+  font-family: 'Lobster';
+  font-size: 1.6rem;
+}
 nav {
   display: flex;
   flex-flow: row wrap;
@@ -207,20 +211,51 @@ header div h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+header div h2 {
+  background: -webkit-linear-gradient(100deg, #ffa0a0, #f1f27e, #96fff6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+header div a {
+  margin: 35% 0 0 0;
+  text-decoration: none;
+  color: #ffa0a0;
+  background: linear-gradient(35deg, #a2f27e 0%, #f1f27e 100%);
+  border: 1px dotted dodgerblue;
+  padding: 1.5rem 3rem;
+  border-radius: 75%;
+}
+header div a:hover {
+  color: #f1f27e;
+  background: linear-gradient(35deg, #ffa0a0 0%, #96fff6 100%);
+}
 section.section-one {
+  margin: 5rem 0;
   width: 100vw;
+  height: 20vh;
   height: 40vh;
-  height: 20rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
   background: #f1f27e;
-  background: linear-gradient(90deg, #ffa0a0 0%, #96fff6 50%, #5b5b5b 100%);
+  background: linear-gradient(90deg, #ffa0a0 0%, #96fff6 50%, #f1f27e 100%);
+}
+section.section-one div {
+  width: 35%;
+}
+section.section-one div h2 {
+  color: #f1f27e;
+}
+section.section-one div p {
+  color: #5b5b5b;
+}
+section.section-one img {
+  height: 30rem;
 }
 section.section-two {
   background: #f1f27e;
-  background: linear-gradient(90deg, #ffa0a0 0%, #96fff6 50%, #5b5b5b 100%);
+  background: linear-gradient(90deg, #ffa0a0 0%, #96fff6 50%, #f1f27e 100%);
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -229,9 +264,9 @@ section.section-two {
   align-items: center;
 }
 section.section-two h2 {
-  background: linear-gradient(30deg, #ffa0a0, #ffffff, #96fff6);
+  background: linear-gradient(35deg, #a2f27e 0%, #f1f27e 100%);
   border: 1px dotted dodgerblue;
-  padding: 1.5rem;
+  padding: 1.5rem 3rem;
   border-radius: 75%;
   margin: 2rem 0;
   border: 1px solid black;
@@ -250,9 +285,9 @@ section.section-two div.tab-row div.tabs {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(30deg, #ffa0a0, #ffffff, #96fff6);
+  background: linear-gradient(35deg, #a2f27e 0%, #f1f27e 100%);
   border: 1px dotted dodgerblue;
-  padding: 1.5rem;
+  padding: 1.5rem 3rem;
   border-radius: 75%;
   border-radius: 10%;
 }
@@ -266,9 +301,9 @@ section.section-two div.tab-row div.tabs p {
 }
 section.section-three {
   width: 100vw;
-  height: 40vh;
+  height: 20vh;
   background: #f1f27e;
-  background: linear-gradient(90deg, #ffa0a0 0%, #96fff6 50%, #5b5b5b 100%);
+  background: linear-gradient(90deg, #ffa0a0 0%, #96fff6 50%, #f1f27e 100%);
 }
 section.section-three div {
   display: flex;
@@ -277,9 +312,9 @@ section.section-three div {
   align-items: center;
 }
 section.section-three div button {
-  background: linear-gradient(30deg, #ffa0a0, #ffffff, #96fff6);
+  background: linear-gradient(35deg, #a2f27e 0%, #f1f27e 100%);
   border: 1px dotted dodgerblue;
-  padding: 1.5rem;
+  padding: 1.5rem 3rem;
   border-radius: 75%;
   margin: 3rem 0 -2rem 0;
 }

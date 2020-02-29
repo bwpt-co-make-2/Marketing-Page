@@ -14,5 +14,22 @@ header {
         h1{
             .coolWords();
         }
+
+        h2{
+            .coolWords();
+        }
+        
+        a{
+            margin: 35% 0 0 0;
+            text-decoration: none;
+            color: @red;
+            .button();
+
+            &:hover {
+                color: @yellow;
+                background: linear-gradient(35deg, @red 0%, @blue 100%);
+                
+            }
+        }
     }
 }
