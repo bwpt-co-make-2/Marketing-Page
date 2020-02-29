@@ -342,14 +342,18 @@ footer img {
   height: 6rem;
 }
 div.about {
-  border: 1px solid red;
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  background: radial-gradient(#ffffff, #ffa0a0);
+  background: #ffffff;
+}
+@media (max-width: 500px) {
+  div.about {
+    height: auto;
+  }
 }
 div.about h2 {
   font-size: 4rem;
@@ -359,23 +363,43 @@ div.about h2 {
   margin: 1rem 0;
 }
 div.about div.photo {
-  border: 1px solid blue;
-  background: radial-gradient(#ffffff, #96fff6);
+  background: #f1f27e;
+  background: linear-gradient(90deg, #ffa0a0 0%, #96fff6 50%, #f1f27e 100%);
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
+  width: 100vw;
+}
+@media (max-width: 500px) {
+  div.about div.photo {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
 }
 div.about div.photo div {
   width: 30%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  div.about div.photo div {
+    width: 90%;
+  }
 }
 div.about div.photo div img {
   width: 75%;
   height: 75%;
+  border: 2rem ridge #96fff6;
+  border-radius: 50%;
 }
 div.role {
   width: 100vw;
-  height: 100vh;
+  height: 20vh;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;

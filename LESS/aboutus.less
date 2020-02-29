@@ -1,34 +1,49 @@
 div.about {
-    border: 1px solid red;
+    @media @mobile {
+        height: auto;
+    }
     .size();
     .flexCol();
-    background: radial-gradient( @white, @red);
+    background: @white;
 
     h2 {
-        font-size: 4rem;
+        font-size: 4rem; 
         .coolWords();
         margin: 1rem 0;
+       
     }
 
     div.photo{
-        border: 1px solid blue;
-        background: radial-gradient( @white, @blue);
+
+        @media @mobile {
+            .flexCol();
+        }
+        
+        .color1();
         .flexRow();
+        width: 100vw;
+
         
         
         div{
+            @media @mobile {
+                width: 90%;
+            }
             width: 30%;
+            .flexCol();
 
             img{
                 width: 75%;
                 height: 75%;
+                border: 2rem ridge @blue;
+                border-radius: 50%;
             }//img
         }//div
     }//photo
 }//about
 
 div.role{
-    .size();
+    .miniSize();
     .flexCol();
     
 }
