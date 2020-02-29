@@ -1,9 +1,19 @@
 nav {
     //border: 1px solid blue;
     .flexRow();
+    justify-content: space-between;
     .size();
+    .color2();
     height: 10%;
-    background: linear-gradient(30deg, @red, @white, @blue);
+
+    div.logo {
+        padding: 2rem;
+
+        h3 {
+            .coolWords();
+            size: 3rem;
+        }
+    }
 
     div.links {
         a {
@@ -12,7 +22,7 @@ nav {
             color:@red;
             margin: 0 1rem;
             &.middle {
-                color:@blue;
+                color: @green;
             }//middle
         }//a
         

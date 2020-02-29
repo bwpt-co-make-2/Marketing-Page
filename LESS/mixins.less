@@ -13,9 +13,13 @@
 }
 
 .size() {
-    margin: 0 10%;
     width: 100vw;
     height: 100vh;
+}
+
+.miniSize() {
+    width: 100vw;
+    height: 40vh;
 }
 
 .tabSize() {
@@ -27,11 +31,21 @@
     background: linear-gradient(30deg, @red, @white, @blue);
     border: 1px dotted dodgerblue;
     padding: 1.5rem;
-    border-radius: 50%;
+    border-radius: 75%;
 }
 
 .coolWords() {
-    background: -webkit-linear-gradient(100deg, @red, @white, @blue);
+    background: -webkit-linear-gradient(100deg, @red, @yellow, @blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.color1() {
+    background: @yellow;
+    background: linear-gradient(90deg, @red 0%, @blue 50%, @grey 100%);
+}
+
+.color2() {
+    background: @blue;
+    background: radial-gradient(circle, @yellow 0%, @blue 100%);
 }
