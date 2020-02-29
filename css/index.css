@@ -168,7 +168,7 @@ nav {
   height: 100vh;
   background: #96fff6;
   background: radial-gradient(circle, #f1f27e 0%, #96fff6 100%);
-  height: 10%;
+  height: 10vh;
 }
 nav div.logo {
   padding: 2rem;
@@ -186,12 +186,12 @@ nav div.links a {
   margin: 0 1rem;
 }
 nav div.links a.middle {
-  color: #a2f27e;
+  color: #f1f27e;
 }
 header {
   width: 100vw;
   height: 100vh;
-  height: 60rem;
+  height: 90vh;
   background-image: url("/Users/jordan.oliver/Documents/School/Lambda/Lambda Projects/Builds/Unit 1 Build/Marketing-Page/imgs/together.jpg");
   background-size: cover;
   background-position: center;
