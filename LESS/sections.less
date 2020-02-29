@@ -1,4 +1,8 @@
 section.section-one{
+    @media @mobile {
+        margin: 1rem 0;
+        .flexCol();
+    }
     margin: 5rem 0;
     .miniSize();
     height: auto;
@@ -6,8 +10,14 @@ section.section-one{
     .color1();
 
     div {
+        @media @mobile {
+            width: 85%;
+        }
         width: 35%;
         h2 {
+            @media @mobile {
+                margin: 1rem 0;
+            }
             color: @yellow;
         }//h2
 
@@ -34,9 +44,16 @@ section.section-two {
     }//h2
     
     div.tab-row {
+        @media @mobile {
+            .flexCol();
+        }
         .flexRow();
 
         div.tabs {
+            @media @mobile {
+                width: 90%;
+                height: 40rem;
+            }
             .tab();
             .flexCol();
 
@@ -59,12 +76,15 @@ section.section-three {
     margin: 2rem 0;
 
     div {
+        @media @mobile {
+            height: auto;
+        }
         .flexCol();
 
-        img {
-           
-        }//img
         button {
+            @media @mobile {
+                margin: 1rem 0 -4rem 0;
+            }
             .button();
             margin: 3rem 0 -4rem 0;
 

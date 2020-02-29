@@ -175,6 +175,14 @@ nav {
   background: radial-gradient(circle, #f1f27e 0%, #96fff6 100%);
   height: 10vh;
 }
+@media (max-width: 500px) {
+  nav {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
 nav div.logo {
   padding: 2rem;
 }
@@ -184,6 +192,13 @@ nav div.logo h3 {
   -webkit-text-fill-color: transparent;
   size: 3rem;
 }
+@media (max-width: 500px) {
+  nav div.logo h3 {
+    background: -webkit-linear-gradient(100deg, #ffa0a0, #f1f27e, #5b5b5b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
 nav div.links a {
   text-decoration: none;
   font-size: 2.4rem;
@@ -192,6 +207,11 @@ nav div.links a {
 }
 nav div.links a.middle {
   color: #f1f27e;
+}
+@media (max-width: 500px) {
+  nav div.links a.middle {
+    color: #ffa0a0;
+  }
 }
 nav div.links a:hover {
   color: #a2f27e;
@@ -203,6 +223,11 @@ header {
   background-image: url("/Users/jordan.oliver/Documents/School/Lambda/Lambda Projects/Builds/Unit 1 Build/Marketing-Page/imgs/together.jpg");
   background-size: cover;
   background-position: center;
+}
+@media (max-width: 500px) {
+  header {
+    height: 40vh;
+  }
 }
 header div {
   display: flex;
@@ -229,6 +254,11 @@ header div a {
   padding: 1.5rem 3rem;
   border-radius: 75%;
 }
+@media (max-width: 500px) {
+  header div a {
+    margin: 15rem 0 0 0;
+  }
+}
 header div a:hover {
   color: #f1f27e;
   background: linear-gradient(35deg, #ffa0a0 0%, #96fff6 100%);
@@ -245,11 +275,30 @@ section.section-one {
   background: #f1f27e;
   background: linear-gradient(90deg, #ffa0a0 0%, #96fff6 50%, #f1f27e 100%);
 }
+@media (max-width: 500px) {
+  section.section-one {
+    margin: 1rem 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
 section.section-one div {
   width: 35%;
 }
+@media (max-width: 500px) {
+  section.section-one div {
+    width: 85%;
+  }
+}
 section.section-one div h2 {
   color: #f1f27e;
+}
+@media (max-width: 500px) {
+  section.section-one div h2 {
+    margin: 1rem 0;
+  }
 }
 section.section-one div p {
   color: #5b5b5b;
@@ -282,6 +331,14 @@ section.section-two div.tab-row {
   justify-content: space-evenly;
   align-items: center;
 }
+@media (max-width: 500px) {
+  section.section-two div.tab-row {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
 section.section-two div.tab-row div.tabs {
   background: linear-gradient(35deg, #96fff6 0%, #f1f27e 100%);
   border: 1rem double #ffa0a0;
@@ -293,6 +350,12 @@ section.section-two div.tab-row div.tabs {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 500px) {
+  section.section-two div.tab-row div.tabs {
+    width: 90%;
+    height: 40rem;
+  }
 }
 section.section-two div.tab-row div.tabs img {
   width: 50%;
@@ -315,12 +378,22 @@ section.section-three div {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 500px) {
+  section.section-three div {
+    height: auto;
+  }
+}
 section.section-three div button {
   background: linear-gradient(35deg, #a2f27e 0%, #f1f27e 100%);
   border: 1px solid dodgerblue;
   padding: 1.5rem 3rem;
   border-radius: 75%;
   margin: 3rem 0 -4rem 0;
+}
+@media (max-width: 500px) {
+  section.section-three div button {
+    margin: 1rem 0 -4rem 0;
+  }
 }
 section.section-three div button:hover {
   color: #f1f27e;
