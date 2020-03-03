@@ -134,7 +134,7 @@ html {
 }
 html,
 body {
-  font-family: 'Anton';
+  font-family: 'Fredoka One';
   color: black;
 }
 h1,
@@ -366,7 +366,7 @@ section.section-two div.tab-row div.tabs p {
   width: 80%;
 }
 section.section-two div.tab-row div.tabs a {
-  font-family: "Anton", Arial, Helvetica, sans-serif;
+  font-family: 'Fredoka One', Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: #ffa0a0;
 }
