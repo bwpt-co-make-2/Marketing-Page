@@ -365,6 +365,11 @@ section.section-two div.tab-row div.tabs p {
   margin: 3rem 0;
   width: 80%;
 }
+section.section-two div.tab-row div.tabs a {
+  font-family: "Anton", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #ffa0a0;
+}
 section.section-three {
   width: 100vw;
   height: 20vh;
