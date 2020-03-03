@@ -220,7 +220,7 @@ header {
   width: 100vw;
   height: 100vh;
   height: 90vh;
-  background-image: url("/Users/jordan.oliver/Documents/School/Lambda/Lambda Projects/Builds/Unit 1 Build/Marketing-Page/imgs/together.jpg");
+  background-image: url("https://co-make2.netlify.com/imgs/together.jpg");
   background-size: cover;
   background-position: center;
 }
