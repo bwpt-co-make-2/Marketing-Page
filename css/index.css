@@ -433,7 +433,7 @@ div.about h2 {
   background: -webkit-linear-gradient(100deg, #ffa0a0, #f1f27e, #96fff6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin: 1rem 0;
+  margin: 1rem 0 0 0;
 }
 div.about div.photo {
   background: #f1f27e;
@@ -452,12 +452,22 @@ div.about div.photo {
     align-items: center;
   }
 }
+@media (max-width: 500px) {
+  div.about div.photo img.ab-logo {
+    display: none;
+  }
+}
 div.about div.photo div {
-  width: 30%;
+  width: 25%;
+  padding: 0.3rem;
+  margin: 4rem;
+  background: linear-gradient(35deg, #96fff6 0%, #f1f27e 100%);
+  border: 0.5rem groove #5b5b5b;
+  border-radius: 10%;
   display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
+  flex-flow: row wrap;
   align-items: center;
+  justify-content: space-evenly;
 }
 @media (max-width: 500px) {
   div.about div.photo div {
@@ -465,16 +475,16 @@ div.about div.photo div {
   }
 }
 div.about div.photo div img {
-  width: 75%;
-  height: 75%;
-  border: 2rem ridge #96fff6;
-  border-radius: 50%;
+  width: 60%;
+  height: 60%;
+  border: 0.2rem solid #5b5b5b;
+  border-radius: 20%;
 }
 div.role {
-  width: 100vw;
-  height: 20vh;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+  font-family: 'Lobster';
+  background: radial-gradient(#ffffff 0%, #96fff6 100%);
 }

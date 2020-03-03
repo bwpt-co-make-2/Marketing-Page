@@ -9,12 +9,10 @@ div.about {
     h2 {
         font-size: 4rem; 
         .coolWords();
-        margin: 1rem 0;
-       
+        margin: 1rem 0 0 0;
     }
 
     div.photo{
-
         @media @mobile {
             .flexCol();
         }
@@ -23,27 +21,37 @@ div.about {
         .flexRow();
         width: 100vw;
 
-        
-        
+        img.ab-logo {
+            @media @mobile {
+                display: none;
+            }
+        }
+
         div{
             @media @mobile {
                 width: 90%;
             }
-            width: 30%;
-            .flexCol();
+            width: 25%;
+            padding: .3rem;
+            margin: 4rem;
+            background: linear-gradient(35deg, @blue 0%, @yellow 100%);
+            border: .5rem groove @grey;
+            border-radius: 10%;
+            .flexRow();
+            justify-content: space-evenly;
 
             img{
-                width: 75%;
-                height: 75%;
-                border: 2rem ridge @blue;
-                border-radius: 50%;
+                width: 60%;
+                height: 60%;
+                border: .2rem solid @grey;
+                border-radius: 20%;
             }//img
         }//div
     }//photo
 }//about
 
 div.role{
-    .miniSize();
     .flexCol();
-    
+    font-family: 'Lobster', ;
+    background: radial-gradient(@white 0%, @blue 100%)
 }
