@@ -1,0 +1,39 @@
+@image-base-url: "/Users/jordan.oliver/Documents/School/Lambda/Lambda Projects/Builds/Unit 1 Build/Marketing-Page/imgs";
+
+header {
+    @media @mobile {
+        height: 40vh;
+    }
+    .size();
+    height: 90vh;
+    background-image: url("@{image-base-url}/together.jpg");
+    background-size: cover;
+    background-position: center;
+
+    div {
+        .flexCol();
+
+        h1{
+            .coolWords();
+        }
+
+        h2{
+            .coolWords();
+        }
+        
+        a{
+            @media @mobile {
+                margin: 15rem 0 0 0;
+            }
+            margin: 35% 0 0 0;
+            text-decoration: none;
+            color: @red;
+            .button();
+
+            &:hover {
+                .hover();
+                
+            }
+        }
+    }
+}

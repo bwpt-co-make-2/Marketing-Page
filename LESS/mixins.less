@@ -1,0 +1,71 @@
+.flexRow() {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flexCol() {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.size() {
+    width: 100vw;
+    height: 100vh;
+}
+
+.miniSize() {
+    width: 100vw;
+    height: 20vh;
+}
+
+.tabSize() {
+    width: 30%;
+    height: auto;
+}
+
+.button() {
+    background: linear-gradient(35deg, @green 0%, @yellow 100%);
+    border: 1px solid dodgerblue;
+    padding: 1.5rem 3rem;
+    border-radius: 75%;
+}
+
+.tab() {
+    background: linear-gradient(35deg, @blue 0%, @yellow 100%);
+    border: 1rem double @red;
+    padding: 2rem 1rem;
+    border-radius: 15%;
+    width: 30%;
+    height: 60rem;
+}
+
+.hover() {
+    color: @yellow;
+    background: linear-gradient(35deg, @red 0%, @blue 100%);
+}
+
+.coolWords() {
+    background: -webkit-linear-gradient(100deg, @red, @yellow, @blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.coolWords2() {
+    background: -webkit-linear-gradient(100deg, @red, @yellow, @grey);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.color1() {
+    background: @yellow;
+    background: linear-gradient(90deg, @red 0%, @blue 50%, @yellow 100%);
+}
+
+.color2() {
+    background: @blue;
+    background: radial-gradient(circle, @yellow 0%, @blue 100%);
+}
