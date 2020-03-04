@@ -53,6 +53,10 @@ section.section-two {
             @media @mobile {
                 width: 90%;
                 height: 40rem;
+                margin: 1rem auto;
+            }
+            @media @tablet {
+                height: 40rem;
             }
             .tab();
             .flexCol();
@@ -71,7 +75,7 @@ section.section-two {
                 font-family: 'Fredoka One', Arial, Helvetica, sans-serif;
                 text-decoration: none;
                 color: @red;
-            }
+            }//a
         }//div.tabs
     }//tab-row 
 }//section-two
@@ -89,7 +93,7 @@ section.section-three {
 
         button {
             @media @mobile {
-                margin: 1rem 0 -4rem 0;
+                margin: 3rem 0;
             }
             .button();
             margin: 3rem 0 -4rem 0;
@@ -98,5 +102,11 @@ section.section-three {
                 .hover();
             }
         }//button
+
+        img {
+            @media @mobile{
+                display: none;
+            }
+        }
     }//div
 }
