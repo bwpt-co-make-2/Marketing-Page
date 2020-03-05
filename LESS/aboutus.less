@@ -2,6 +2,9 @@ div.about {
     @media @mobile {
         height: auto;
     }
+    @media @tablet {
+        height: auto;
+    }
     .size();
     .flexCol();
     background: @white;
@@ -16,6 +19,9 @@ div.about {
         @media @mobile {
             .flexCol();
         }
+        @media @tablet {
+            .flexCol();
+        }
         
         .color1();
         .flexRow();
@@ -25,20 +31,31 @@ div.about {
             @media @mobile {
                 display: none;
             }
+            @media @tablet {
+                display: none;
+            }
         }
 
         div{
             @media @mobile {
                 width: 90%;
             }
+            @media @tablet {
+                width: 60%;
+            }
             width: 25%;
+            height: auto;
             padding: .3rem;
             margin: 4rem;
             background: linear-gradient(35deg, @blue 0%, @yellow 100%);
-            border: .5rem groove @grey;
+            border: .3rem outset @green;
             border-radius: 10%;
             .flexCol();
             justify-content: space-evenly;
+
+            h3 {
+                padding: .5rem;
+            }
 
             img{
                 width: 60%;
@@ -49,10 +66,16 @@ div.about {
 
             h4{
                 font-size: 2.1rem;
+                color:@red;
                 
                 a{
                     text-decoration: none;
-                    color: black;
+                    color: @grey;
+
+                    &:hover {
+                        color: @red;
+                        background: @yellow;
+                    }
                 }
             }
         }//div

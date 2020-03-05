@@ -1,12 +1,13 @@
-@image-base-url: "/Users/jordan.oliver/Documents/School/Lambda/Lambda Projects/Builds/Unit 1 Build/Marketing-Page/imgs";
-
 header {
     @media @mobile {
         height: 40vh;
     }
+    @media @tablet {
+        height: 55vh;
+    }
     .size();
     height: 90vh;
-    background-image: url("@{image-base-url}/together.jpg");
+    background-image: url("https://co-make2.netlify.com/imgs/together.jpg");
     background-size: cover;
     background-position: center;
 
@@ -18,12 +19,15 @@ header {
         }
 
         h2{
+            @media @mobile {
+                .coolWords2;
+            }
             .coolWords();
         }
         
         a{
             @media @mobile {
-                margin: 15rem 0 0 0;
+                margin: 12rem;
             }
             margin: 35% 0 0 0;
             text-decoration: none;
