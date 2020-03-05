@@ -1,11 +1,12 @@
 nav {
-    @media @mobile {
-        .flexCol();
-    }
     @media @tablet {
         .flexCol();
         .color3();
         height: auto;
+    }
+    @media @mobile {
+        .flexCol();
+        .color2();
     }
     .flexRow();
     justify-content: space-between;
@@ -25,8 +26,8 @@ nav {
 
             .coolWords();
             font-size: 5rem;
-        }
-    }
+        }//h3
+    }//logo
 
     div.links {
         a {
@@ -47,8 +48,7 @@ nav {
                     color: @blue;
                 }
                 color: @green;
-            }
+            }//hover
         }//a
-        
     }//div.links
 }//nav

@@ -5,9 +5,9 @@ section.section-one{
     }
     margin: 5rem 0;
     .miniSize();
-    height: auto;
     .flexRow();
     .color1();
+    height: auto;
 
     div {
         @media @mobile {
@@ -34,13 +34,14 @@ section.section-one{
 section.section-two {
     .color1();
     .size();
-    height: auto;
     .flexCol();
+    height: auto;
 
     h2 {
+        color: @red;
         .button();
         margin: 2rem 0;
-        border: 1px solid black;
+        border: 1px solid @blue;
     }//h2
     
     div.tab-row {
@@ -69,7 +70,10 @@ section.section-two {
                 @media @weird {
                     width: 65%;
                     height: auto;
-                    //margin: 0 0 1rem 0;
+                }
+                @media @mobile {
+                    width: 45%;
+                    height: auto;
                 }
                 width: 50%;
                 height: 50%;
@@ -81,7 +85,6 @@ section.section-two {
                 }
                 @media @weird {
                     width: auto;
-                   // margin: 2rem 0;
                 }
                 margin: 3rem 0; 
                 width: 80%;
