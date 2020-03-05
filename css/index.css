@@ -353,7 +353,7 @@ section.section-two div.tab-row div.tabs {
   border: 1rem double #ffa0a0;
   padding: 2rem 1rem;
   border-radius: 15%;
-  width: 30%;
+  width: 32%;
   height: 60rem;
   display: flex;
   flex-flow: column wrap;
@@ -379,6 +379,11 @@ section.section-two div.tab-row div.tabs img {
 section.section-two div.tab-row div.tabs p {
   margin: 3rem 0;
   width: 80%;
+}
+@media (max-width: 1024px) {
+  section.section-two div.tab-row div.tabs p {
+    margin: 0;
+  }
 }
 section.section-two div.tab-row div.tabs a {
   font-family: 'Fredoka One', Arial, Helvetica, sans-serif;
@@ -453,6 +458,11 @@ div.about {
     height: auto;
   }
 }
+@media (max-width: 1024px) {
+  div.about {
+    height: auto;
+  }
+}
 div.about h2 {
   font-size: 4rem;
   background: -webkit-linear-gradient(100deg, #ffa0a0, #f1f27e, #96fff6);
@@ -477,7 +487,20 @@ div.about div.photo {
     align-items: center;
   }
 }
+@media (max-width: 1024px) {
+  div.about div.photo {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
 @media (max-width: 500px) {
+  div.about div.photo img.ab-logo {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
   div.about div.photo img.ab-logo {
     display: none;
   }
@@ -501,6 +524,11 @@ div.about div.photo div {
     width: 90%;
   }
 }
+@media (max-width: 1024px) {
+  div.about div.photo div {
+    width: 60%;
+  }
+}
 div.about div.photo div h3 {
   padding: 0.5rem;
 }
@@ -509,6 +537,11 @@ div.about div.photo div img {
   height: 60%;
   border: 0.2rem solid #5b5b5b;
   border-radius: 20%;
+}
+@media (max-width: 1024px) {
+  div.about div.photo div img {
+    order: 0;
+  }
 }
 div.about div.photo div h4 {
   font-size: 2.1rem;

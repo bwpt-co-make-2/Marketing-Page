@@ -2,6 +2,9 @@ div.about {
     @media @mobile {
         height: auto;
     }
+    @media @tablet {
+        height: auto;
+    }
     .size();
     .flexCol();
     background: @white;
@@ -16,6 +19,9 @@ div.about {
         @media @mobile {
             .flexCol();
         }
+        @media @tablet {
+            .flexCol();
+        }
         
         .color1();
         .flexRow();
@@ -25,11 +31,17 @@ div.about {
             @media @mobile {
                 display: none;
             }
+            @media @tablet {
+                display: none;
+            }
         }
 
         div{
             @media @mobile {
                 width: 90%;
+            }
+            @media @tablet {
+                width: 60%;
             }
             width: 25%;
             height: auto;
@@ -46,6 +58,9 @@ div.about {
             }
 
             img{
+                @media @tablet {
+                    order: 0;
+                }
                 width: 60%;
                 height: 60%;
                 border: .2rem solid @grey;
