@@ -2,6 +2,11 @@ nav {
     @media @mobile {
         .flexCol();
     }
+    @media @tablet {
+        .flexCol();
+        .color3();
+        height: auto;
+    }
     .flexRow();
     justify-content: space-between;
     .size();
@@ -38,6 +43,9 @@ nav {
             }//middle
 
             &:hover {
+                @media @tablet {
+                    color: @blue;
+                }
                 color: @green;
             }
         }//a
